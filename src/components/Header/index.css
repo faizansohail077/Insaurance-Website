@@ -134,24 +134,13 @@ body {
 		display: flex;
 	}
 }
-@media screen and (max-width: 360px) {
-	.navbar {
-		display: flex;
+@media screen and (max-width: 400px) and (min-width: 300px) {
+	* {
 		width: 100%;
-		align-items: center;
-		text-align: center;
-	}
-	.toggle-button {
-		padding-right: 50px;
-		padding-top: 10px;
-	}
-	.navbar__top {
-		display: static;
-	}
-	.brand-title {
-		display: flex;
 	}
 	.brand-title img {
-		height: 30px;
+		position: static;
+		height: 50px;
+		width: 100px;
 	}
 }

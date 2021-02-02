@@ -1,18 +1,18 @@
 import React from 'react'
-import './HeroSession.css'
-import hero from '../../images/hero.png'
+import './index.css'
+import './style.css'
 import { Container } from 'react-bootstrap'
 import Layer2 from '../../images/Layer2.png'
-const img = hero
+
 const index = () => {
     return (
         <div>
-            <div style={{ backgroundImage: `url(${img})`, width: '100%', height: '70vh', backgroundColor: '#AEAEAE', backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover' }} className="image">
+            <div className="image">
                 <Container >
                     <div className="hero__container">
                         <div className="hero__containerLeft">
-                            <p style={{ color: '#37885F' }}>We Protect</p>
-                            <p style={{ color: '#BD2E1F' }}>What You Love</p>
+                            <p>We Protect</p>
+                            <p>What You Love</p>
                             <div className="hero__containerButton">
                                 <button >Register Now</button>
                             </div>
@@ -22,6 +22,32 @@ const index = () => {
                         </div>
                     </div>
                 </Container>
+            </div>
+
+            {/* style.css is for this part  */}
+
+            <div style={{ backgroundColor: '#BD2E1F' }}>
+                <Container>
+                    <div className="heroBottom">
+                        <div className="heroBottomLeft">
+                            <p> Compare Quote For</p>
+                        </div>
+                        <div className="heroBottomMiddle">
+                            <p>
+                                Mouse over me +
+                            </p>
+                            <div className="dropdown">
+                                <p>Hello World!</p>
+
+                            </div>
+                        </div>
+                        <div className="heroBottomRight">
+                            <button>Compare Now</button>
+                        </div>
+
+                    </div>
+                </Container>
+
             </div>
         </div>
     )

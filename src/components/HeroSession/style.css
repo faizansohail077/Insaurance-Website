@@ -1,0 +1,65 @@
+.heroBottom {
+	display: flex;
+
+	align-items: center;
+	width: 80%;
+	height: 10vh;
+	color: white;
+	justify-content: space-evenly;
+	padding-left: 80px;
+}
+.heroBottomRight > button {
+	padding: 10px;
+	background-color: #37885f;
+	font-size: 13px;
+	color: white;
+	width: 100%;
+	border: none;
+}
+.heroBottomMiddle {
+	position: relative;
+	display: inline-block;
+}
+.dropdown {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
+
+@media screen and (max-width: 800px) and (min-width: 700px) {
+	.heroBottom {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		height: 10vh;
+	}
+}
+@media screen and (max-width: 400px) {
+	.heroBottom {
+		display: flex;
+		justify-content:flex-start;
+		align-items: center;
+		width: 90%;
+		padding-right: 30px;
+		height: 10vh;
+	}
+	.heroBottomLeft > p {
+		font-size: 10px;
+	}
+	.heroBottomRight > button {
+		padding: 5px;
+		background-color: #37885f;
+		font-size: 10px;
+		color: white;
+		width: 100%;
+		border: none;
+	}
+	.heroBottomMiddle > p {
+		font-size: 10px;
+	}
+}

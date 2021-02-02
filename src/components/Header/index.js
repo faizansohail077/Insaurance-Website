@@ -1,11 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Container } from "react-bootstrap";
-import "./Header.css";
+import "./index.css";
 import logo from '../../images/logo.png'
-import { FaBars, FaTimes } from 'react-icons/fa'
-import { MdFingerprint } from 'react-icons/md'
+import { FaBars } from 'react-icons/fa'
 import { IconContext } from "react-icons/lib";
-import { Link } from "react-router-dom";
+
 
 const Header = () => {
   const [click, setClick] = useState(false)
