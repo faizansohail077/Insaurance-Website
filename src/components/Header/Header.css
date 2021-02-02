@@ -1,0 +1,157 @@
+.navbar-links button {
+	margin-top: 10px;
+	padding: 4px 30px 4px 30px;
+	margin-left: 10px;
+	border: none;
+	outline: none;
+	background-color: #bd2e1f;
+	color: white;
+}
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.navbar__top {
+	display: flex;
+	background-color: #37885f;
+	align-items: center;
+	height: 5vh;
+	/* text-align: center; */
+}
+.navbar__topDetails {
+	width: 80%;
+	display: flex;
+	justify-content: flex-end;
+}
+.navbar {
+	display: flex;
+	/* position: relative; */
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	padding-left: 80px;
+	background-color: #fff;
+	padding-right: 80px;
+	color: white;
+}
+.brand-title > img {
+	position: absolute;
+	height: 70px;
+	left: 150px;
+	top: 0;
+}
+.brand-title {
+	font-size: 1.5rem;
+	margin: .5rem;
+	flex: 0.3;
+}
+
+.navbar-links {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	flex: 0.5;
+}
+
+.navbar-links ul {
+	display: flex;
+	margin: 0;
+	justify-content: space-between;
+	/* position: relative; */
+	padding: 0;
+}
+
+.navbar-links li {
+	list-style: none;
+}
+
+.navbar-links li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 1rem;
+}
+
+.toggle-button {
+	position: absolute;
+	/* top: .95rem; */
+	bottom: 35px;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+
+.toggle-button .bar {
+	height: 3px;
+	padding-top: 3px;
+	width: 100%;
+	align-items: center;
+	background-color: black;
+	border-radius: 10px;
+}
+@media screen and (max-width: 800px) {
+	.navbar {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.toggle-button {
+		display: flex;
+	}
+	.navbar__top {
+		display: none;
+	}
+
+	.navbar-links {
+		display: none;
+		width: 100%;
+	}
+
+	.navbar-links ul {
+		width: 100%;
+		flex-direction: column;
+	}
+	.brand-title img {
+		position: static;
+	}
+	.navbar-links ul li {
+		text-align: center;
+	}
+
+	.navbar-links ul li a {
+		padding: .5rem 1rem;
+	}
+
+	.navbar-links.active {
+		display: flex;
+	}
+}
+@media screen and (max-width: 360px) {
+	.navbar {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		text-align: center;
+	}
+	.toggle-button {
+		padding-right: 50px;
+		padding-top: 10px;
+	}
+	.navbar__top {
+		display: static;
+	}
+	.brand-title {
+		display: flex;
+	}
+	.brand-title img {
+		height: 30px;
+	}
+}

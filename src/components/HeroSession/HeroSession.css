@@ -1,0 +1,47 @@
+.hero__container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* height: 70vh; */
+	padding-left: 80px;
+	flex-wrap: wrap;
+	line-height: 0.8;
+}
+.hero__containerLeft > p {
+	font-size: 60px;
+	font-weight: 800;
+	max-width: 500px;
+}
+.hero__containerRight {
+	flex: 1;
+}
+.hero__containerRight > img {
+	flex-direction: flex-start;
+	height: 450px;
+}
+.hero__containerLeft {
+	flex: 1;
+	max-width: 500px;
+}
+.hero__containerButton {
+}
+.hero__containerButton > button {
+	background-color: #37885f;
+	width: 30%;
+	padding: 15px;
+	border: none;
+	color: white;
+}
+
+
+
+@media screen and(max-width: 933px) {
+	.hero__containerLeft {
+		background-color: red;
+		color: red;
+	}
+	.hero__containerLeft > p {
+		font-size: 10px;
+		color: white;
+	}
+}
