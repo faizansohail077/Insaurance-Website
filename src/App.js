@@ -8,6 +8,8 @@ import HeroBottom from "./components/HeroBottom";
 import Prices from "./components/Prices";
 import Work from "./components/Work";
 import Help from "./components/Help";
+import Partners from "./components/partners";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -17,11 +19,12 @@ function App() {
             <Header />
             <Hero />
             <HeroBottom />
-            <Hero2/>
-            <Prices/>
-            <Work/>
-            <Help/>
-
+            <Hero2 />
+            <Prices />
+            <Work />
+            <Help />
+            <Partners />
+            <Footer />
           </Route>
         </Switch>
       </Router>

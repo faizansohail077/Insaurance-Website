@@ -1,0 +1,40 @@
+.partners{
+    min-height: 20vh;
+    /* align-items: center; */
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+.partners > img {
+    height: 90px;
+}
+.partners__Text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.partners__Text > h1{
+    font-weight: bold;
+    padding-top: 20px;
+}
+@media screen and (max-width: 400px) {
+    .partners{
+        min-height: 20vh;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        /* margin-top: 20px; */
+    }
+    .partners > img {
+        height: 80px;
+        width: 90px;
+    }
+}

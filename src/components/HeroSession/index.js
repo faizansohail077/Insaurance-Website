@@ -12,7 +12,7 @@ const index = () => {
                     <div className="hero__container">
                         <div className="hero__containerLeft">
                             <p>We Protect</p>
-                            <p>What You Love</p>
+                            <p>What you Love</p>
                             <div className="hero__containerButton">
                                 <button >Register Now</button>
                             </div>
@@ -30,12 +30,12 @@ const index = () => {
                 <Container>
                     <div className="heroBottom">
                         <div className="heroBottomLeft">
-                            <p> Compare Quote For</p>
+                            <div> Compare Quote For</div>
                         </div>
                         <div className="heroBottomMiddle">
-                            <p>
+                            <div>
                                 Mouse over me +
-                            </p>
+                            </div>
                             <div className="dropdown">
                                 <p>Hello World!</p>
 

@@ -18,7 +18,7 @@
 }
 .hero__containerLeft {
 	flex: 0.6;
-	line-height: 0.4;
+	line-height: 0.6;
 	max-width: 50%;
 }
 .hero__containerLeft > p:first-child {

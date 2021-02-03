@@ -2,7 +2,7 @@
 	display: flex;
 	align-items: center;
 	height: 30vh;
-	width: 90%;
+	width: 100%;
 	padding-left: 70px;
 	padding-right: 70px;
 	justify-content: space-between;
@@ -19,13 +19,12 @@
 	.herobottom1 {
 		display: flex;
 		height: 10vh;
-		/* flex-direction: column; */
 		width: 100%;
-		align-items: flex-start;
+		align-items: center;
 		padding-left: 30px;
 		padding-bottom: 10px;
 		padding-right: 0px;
-		justify-content: space-between;
+
 	}
 	.herobottom1 img {
 		height: 20px;

@@ -29,20 +29,20 @@ body {
 	justify-content: flex-end;
 }
 .navbar {
-	display: flex;
+	/* display: flex; */
 	/* position: relative; */
-	justify-content: space-around;
-	align-items: center;
-	width: 100%;
-	padding-left: 80px;
-	background-color: #fff;
-	padding-right: 80px;
+	/* justify-content: space-around; */
+	/* align-items: center; */
+	/* width: 100%; */
+	/* padding-left: 80px; */
+	/* background-color: #fff; */
+	/* padding-right: 80px; */
 	color: white;
 }
 .brand-title > img {
 	position: absolute;
 	height: 70px;
-	left: 150px;
+	/* left: 150px; */
 	top: 0;
 }
 .brand-title {

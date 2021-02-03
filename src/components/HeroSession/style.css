@@ -1,6 +1,5 @@
 .heroBottom {
 	display: flex;
-
 	align-items: center;
 	width: 80%;
 	height: 10vh;
@@ -13,17 +12,31 @@
 	background-color: #37885f;
 	font-size: 13px;
 	color: white;
+	font-weight: bold;
+
 	width: 100%;
 	border: none;
 }
-.heroBottomMiddle {
-	position: relative;
-	display: inline-block;
+.heroBottomLeft{
+	font-size: 20px;
+	font-weight: bold;
 }
+.heroBottomMiddle {
+	align-self: center;
+	align-items: center;
+	position: relative;
+	display: flex;
+	font-weight: bold;
+
+	font-size: 20px;
+}
+
 .dropdown {
 	display: none;
-	position: absolute;
-	background-color: #f9f9f9;
+	/* position: absolute; */
+	/* background-color: #f9f9f9; */
+	/* display: flex; */
+	flex-direction: column;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	padding: 12px 16px;
@@ -34,6 +47,7 @@
 	.heroBottom {
 		display: flex;
 		justify-content: space-between;
+		
 		align-items: center;
 		width: 100%;
 		height: 10vh;
@@ -44,17 +58,28 @@
 		display: flex;
 		justify-content:flex-start;
 		align-items: center;
-		width: 90%;
+		width: 100%;
 		padding-right: 30px;
+		padding-left:10px ;
 		height: 10vh;
 	}
-	.heroBottomLeft > p {
+	.heroBottomLeft {
+		/* width: 400px;
+		padding-right: 5px; */
 		font-size: 10px;
+		/* wid */
+		/* border: 1px solid black; */
+	}
+	.heroBottomMiddle {
+		font-size: 10px;
+		/* width: 400px;
+		padding-right: 5px; */
 	}
 	.heroBottomRight > button {
-		padding: 5px;
+		padding: 7px;
 		background-color: #37885f;
 		font-size: 10px;
+		font-weight: bold;
 		color: white;
 		width: 100%;
 		border: none;

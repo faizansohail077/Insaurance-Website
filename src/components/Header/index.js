@@ -23,34 +23,37 @@ const Header = () => {
   return (
 
     <div style={{ width: '100%' }}>
-      <IconContext.Provider value={{ color: 'black' }}>
-        <div className="navbar__top">
-          <div className="navbar__topDetails">
-            <p style={{ color: 'white', paddingRight: '50px', paddingTop: '10px' }}>info@bussiness.com</p>
-            <p style={{ color: 'white', paddingTop: '10px' }}>+123 12345678</p>
-          </div>
+          <div className="navbar__top">
+            <div className="navbar__topDetails">
+              <p style={{ color: 'white', paddingRight: '50px', paddingTop: '10px' }}>info@bussiness.com</p>
+              <p style={{ color: 'white', paddingTop: '10px' }}>+123 12345678</p>
+            </div>
 
-        </div>
-        <nav className="navbar">
-
-          <div className="brand-title">
-            <img src={logo} alt='logo' />
           </div>
-          <a href="#" className="toggle-button">
-            <FaBars />
-          </a>
-          <div className="navbar-links">
-            <ul>active
+          <Container >
+          <IconContext.Provider value={{ color: 'black' }}>
+
+          <nav className="navbar">
+
+            <div className="brand-title">
+              <img src={logo} alt='logo' />
+            </div>
+            <a href="#" className="toggle-button">
+              <FaBars />
+            </a>
+            <div className="navbar-links">
+              <ul>active
             <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><button>LogIn</button></li>
-            </ul>
-          </div>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><button>LogIn</button></li>
+              </ul>
+            </div>
 
-        </nav>
-      </IconContext.Provider>
+          </nav>
+        </IconContext.Provider>
+      </Container>
     </div>
 
   );
