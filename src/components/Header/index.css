@@ -79,7 +79,7 @@ body {
 
 .toggle-button {
 	position: absolute;
-	/* top: .95rem; */
+	top: .95rem;
 	bottom: 35px;
 	right: 1rem;
 	display: none;
