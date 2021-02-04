@@ -1,0 +1,172 @@
+.compareform {
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+
+	
+}
+.compare{
+    display: flex;
+align-items:center ;}
+
+.form__top {
+	padding-left: 20px;
+	padding-top: 10px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	/* border: 1px solid black; */
+	padding-bottom: 10px;
+	/* margin-top: 20px; */
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	/* 
+    justify-content: center; */
+}
+.form__top > img {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.form__top > input {
+	width: 80%;
+	border-top: 0px;
+	outline: none;
+	border-radius: 0;
+	padding: 10px;
+}
+.form__mid {
+	display: flex;
+	width: 13%;
+	justify-content: space-around;
+}
+.form__mid > p:first-child {
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+.form__mid > p:nth-child(2) {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+.form__topInput > input:first-child {
+	width: 50%;
+	border-radius: 0;
+	outline: none;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	padding: 10px;
+}
+
+.form__topInput > input:nth-child(2) {
+	width: 30%;
+	border-radius: 0;
+	outline: none;
+	padding: 10px;
+	margin-left: 10px;
+}
+.form__bottom {
+	padding-left: 20px;
+	padding-top: 20px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	/* border: 1px solid black; */
+	padding-bottom: 10px;
+	margin-top: 20px;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	/* 
+    justify-content: center; */
+}
+.form__bottom > input {
+	width: 80%;
+	border-top: 0px;
+	outline: none;
+
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 0;
+}
+.form__bottom > div > input:first-child {
+	width: 50%;
+	margin-top: 10px;
+	border-bottom: 0px;
+	border-right: 0px;
+	outline: none;
+
+	border-radius: 0;
+	padding: 10px;
+}
+.form__bottom > div > input:nth-child(2) {
+	width: 47%;
+	outline: none;
+	margin-top: 10px;
+	border-radius: 0;
+	margin-left: 10px;
+	padding: 10px;
+	border-bottom: 0px;
+	border-left: 0px;
+}
+.form__bottom2 {
+    padding-left: 20px;
+    padding-right: 20px;
+	padding-top: 20px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	
+	padding-bottom: 10px;
+	margin-top: 20px;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	
+    
+}
+.form__bottom2Content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.form__bottom2Content > P {
+font-size: 30px;
+color: red;
+}
+.form__bottom2ContentImg{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+}
+.form__bottom3 {
+    width: 100%;
+}
+.form__bottom3 > p{
+    padding-top: 20px;
+}
+.form__bottom3Button {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.form__bottom3Button > button {
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 20%;
+    color: white;
+}
+.form__bottom3Button > button:first-child{
+    background-color: gray;
+}
+.form__bottom3Button > button:nth-child(2){
+    background-color: #37885F;
+}

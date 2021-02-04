@@ -6,6 +6,7 @@ import HeroBottom from "./components/HeroBottom";
 import Prices from "./components/Prices";
 import Work from "./components/Work";
 import Partners from "./components/partners";
+import Help from "../../pages/HomePage/components/Help";
 const Home = () => {
     return (
         <>
@@ -14,8 +15,9 @@ const Home = () => {
             <Hero2 />
             <Prices />
             <Work />
-            
+
             <Partners />
+            <Help />
         </>
     )
 }

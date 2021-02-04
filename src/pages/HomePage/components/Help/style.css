@@ -1,5 +1,6 @@
 .help {
 	display: flex;
+	margin-bottom: 20px;
 }
 .help__left {
 	flex: 0.5;

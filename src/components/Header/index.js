@@ -4,6 +4,7 @@ import "./index.css";
 import logo from '../../images/logo.png'
 import { FaBars } from 'react-icons/fa'
 import { IconContext } from "react-icons/lib";
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
@@ -23,30 +24,34 @@ const Header = () => {
   return (
 
     <div style={{ width: '100%' }}>
-          <div className="navbar__top">
-            <div className="navbar__topDetails">
-              <p style={{ color: 'white', paddingRight: '50px', paddingTop: '10px' }}>info@bussiness.com</p>
-              <p style={{ color: 'white', paddingTop: '10px' }}>+123 12345678</p>
-            </div>
-
+      <div className="navbar__top">
+        <Container>
+          <div className="navbar__topDetails">
+            <p style={{ color: 'white', paddingRight: '50px', paddingTop: '10px' }}>info@bussiness.com</p>
+            <p style={{ color: 'white', paddingTop: '10px' }}>+123 12345678</p>
           </div>
-          <Container >
-          <IconContext.Provider value={{ color: 'black' }}>
+        </Container>
+
+      </div>
+      <Container >
+        <IconContext.Provider value={{ color: 'black' }}>
 
           <nav className="navbar">
 
             <div className="brand-title">
-              <img src={logo} alt='logo' />
+              <Link to='/'>
+                <img src={logo} alt='logo' />
+              </Link>
             </div>
             <a href="#" className="toggle-button">
               <FaBars />
             </a>
             <div className="navbar-links">
               <ul>active
-            <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Contact</a></li>
+            <li><Link to="/partners">Partner</Link></li>
+                <li><Link to="/quote">Product</Link></li>
+                <li><Link to="/promotion">Promotion</Link></li>
+                <li><Link to="contact">Contact</Link></li>
                 <li><button>LogIn</button></li>
               </ul>
             </div>
