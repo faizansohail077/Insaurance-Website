@@ -1,32 +1,31 @@
 import Header from "./components/Header";
 import './App.css'
-import Hero from './components/HeroSession'
-import Hero2 from './components/Hero'
-
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import HeroBottom from "./components/HeroBottom";
-import Prices from "./components/Prices";
-import Work from "./components/Work";
-import Help from "./components/Help";
-import Partners from "./components/partners";
+
 import Footer from "./components/Footer";
+import Home from "./pages/HomePage";
+import PartnersPage from './pages/partners'
+import Help from "./pages/HomePage/components/Help";
+import GetQuote from "./pages/getQuote";
+
 function App() {
   return (
     <div className="App">
       <Router>
+        <Header />
         <Switch>
+        <Route path="/quote">
+            <GetQuote />
+          </Route>
+          <Route path="/partners">
+            <PartnersPage />
+          </Route>
           <Route path='/'>
-            <Header />
-            <Hero />
-            <HeroBottom />
-            <Hero2 />
-            <Prices />
-            <Work />
-            <Help />
-            <Partners />
-            <Footer />
+            <Home />
           </Route>
         </Switch>
+        <Help/>
+        <Footer />
       </Router>
     </div>
   );

@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import './style.css'
-import layer1 from '../../images/Layer 27.png'
-import layer2 from '../../images/Layer 28.png'
+import layer1 from '../../../../images/Layer 27.png'
+import layer2 from '../../../../images/Layer 28.png'
 // import layer3 from '../../images/Layer 29.png'
 const Work = () => {
     return (

@@ -14,22 +14,21 @@ const Footer = () => {
     return (
         <div className="footer">
             <Container>
-                <div className="footer__content">
-                    <div className="logo">
-                        <div className="logo__left">
-                            <img src={layer} alt="" />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s standard dummy text ever since the 1500s,</p>
-                        </div>
-                        <div className="footer__left">
-                            <ul>
-                                <li>Affiliates</li>
-                                <li>Register</li>
-                                <li>Contact us</li>
-                            </ul>
-                        </div>
+                <div className="logo">
+                    <img src={layer} alt='' />
+                </div>
+                <div className="footer1">
+                    <div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s standard dummy text ever since the 1500s</p>
                     </div>
-
-                    <div className="footer__right">
+                    <div>
+                        <ul>
+                            <li>Affiliates</li>
+                            <li>Register</li>
+                            <li>Contact us</li>
+                        </ul>
+                    </div>
+                    <div>
                         <ul>
                             <li>Terms and Conditions</li>
                             <li>Privacy Policy</li>
@@ -37,14 +36,27 @@ const Footer = () => {
                             <li>Complaints</li>
                         </ul>
                     </div>
-                    <div className="footer__right2">
-                        <div className="footer__right2Logo">
-                            <img src={logo1} alt="" />
-                            <img src={logo2} alt="" />
-                            <img src={logo3} alt="" />
-                            <img src={logo4} alt="" />
+                    <div>
+                        <div className="footer__logo">
+                            <div>
+
+                                <img src={logo1} alt="" />
+                            </div>
+
+                            <div>
+                                <img src={logo2} alt="" />
+                            </div>
+                            <div>
+                                <img src={logo3} alt="" />
+                            </div>
+                            <div>
+                                <img src={logo4} alt="" />
+                            </div>
+
                         </div>
-                    <img src={logo5} alt=""/>
+                        <img src={logo5} alt="" />
+
+
                     </div>
                 </div>
             </Container>
@@ -53,3 +65,36 @@ const Footer = () => {
 }
 
 export default Footer
+
+{/* <div className="footer__content">
+<div className="logo">
+        <img src={layer} alt="" />
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s standard dummy text ever since the 1500s,</p>
+
+
+</div>
+<div className="footer__left">
+    <ul>
+        <li>Affiliates</li>
+        <li>Register</li>
+        <li>Contact us</li>
+    </ul>
+</div>
+<div className="footer__right">
+    <ul>
+        <li>Terms and Conditions</li>
+        <li>Privacy Policy</li>
+        <li>Disclaimer</li>
+        <li>Complaints</li>
+    </ul>
+</div>
+<div className="footer__right2">
+    <div className="footer__right2Logo">
+        <img src={logo1} alt="" />
+        <img src={logo2} alt="" />
+        <img src={logo3} alt="" />
+        <img src={logo4} alt="" />
+    </div>
+    <img src={logo5} alt="" />
+</div>
+</div> */}

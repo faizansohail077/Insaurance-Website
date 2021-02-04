@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import './style.css'
-import layer from '../../images/Layer 12.png'
+import layer from '../../../../images/Layer 12.png'
 
 const Help = () => {
     return (

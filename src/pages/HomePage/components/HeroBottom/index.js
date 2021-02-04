@@ -1,11 +1,11 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import './style.css'
-import layer1 from '../../images/Layer 6.png'
-import layer2 from '../../images/Layer 7.png'
-import layer3 from '../../images/Layer 8.png'
-import layer4 from '../../images/Layer 9.png'
-import layer5 from '../../images/Layer 10.png'
+import layer1 from '../../../../images/Layer 6.png'
+import layer2 from '../../../../images/Layer 7.png'
+import layer3 from '../../../../images/Layer 8.png'
+import layer4 from '../../../../images/Layer 9.png'
+import layer5 from '../../../../images/Layer 10.png'
 
 const HeroBottom = () => {
     return (

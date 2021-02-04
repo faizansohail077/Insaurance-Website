@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import './style.css'
-import layer1 from '../../images/layer1.png'
-import layer0 from '../../images/layer0.png'
+import layer1 from '../../../../images/layer1.png'
+import layer0 from '../../../../images/layer0.png'
 const Hero2 = () => {
     return (
         <div>

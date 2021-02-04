@@ -1,70 +1,55 @@
-.footer{
-    background-color: #BD2E1F;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    height: 50vh;
+.footer {
+	background-color: #bd2e1f;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	min-height: 50vh;
 }
-.footer__content{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.footer1 {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	color: white;
 }
-.logo {
-    display: flex;
-    width: 40%;
-    color: whitesmoke;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-.logo__left > p  {
-    width: 300px;
-    padding-top: 20px;
-    
-}
-.footer__left{
-    padding-top: 50px;
-}
-.footer__left > ul{
-    list-style: none;
-    padding-top: 20px;
-
-    line-height: 2;
-    color: whitesmoke;
-    font-weight: 600;
-}
-.footer__right, .footer__right2 {
-    padding-top: 50px;
-
-}
-.footer__right > ul {
-    list-style: none;
-    color: whitesmoke;
-    padding-top: 20px;
-    font-weight: 600;
-}
-.footer__right2{
-    display: flex;
-    width: 300px;
-    flex-direction: column;
-}
-.footer__right2Logo {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    /* flex-direction: column; */
-    
+.footer1 > div:first-child {
+	width: 200px;
 }
 
-.footer__right2Logo > img {
-    height: 40px;
-    width: 30px;
-    margin-bottom: 30px;
+ul {
+	list-style: none;
+	line-height: 2;
 }
 
-@media screen and (max-width: 400px){
-    .footer {
-        display: none;
-    }
+.footer__logo {
+	display: flex;
+	width: 100%;
+	margin-bottom: 20px;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 400px) {
+	.footer {
+		margin-top: 20px;
+		padding-top: 30px;
+	}
+	.logo > img {
+		height: 40px;
+		width: 90px;
+	}
+	.footer1 {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: column;
+		color: white;
+	}
+	.footer1 > div:first-child {
+		width: 100%;
+	}
+	.footer__logo > div > img {
+		height: 30px;
+		width: 40px;
+	}
 }
